@@ -4,10 +4,6 @@ This is a simple Todo List API built in Ruby on Rails 7. This project is current
 
 ## Build
 
-To build a PG database using docker:
-
-`docker compose up`
-
 To build the application:
 
 `bin/setup`
