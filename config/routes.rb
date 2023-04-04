@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   namespace :api do
-    resources :todo_lists, only: %i[index]
+    get :todolists, controller: :todo_lists, action: :index
   end
 end
