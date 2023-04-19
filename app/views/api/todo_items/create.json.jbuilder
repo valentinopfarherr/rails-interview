@@ -1,0 +1,1 @@
+json.call @todo_item, :id, :title, :description, :completed
